@@ -15,7 +15,6 @@
 const express = require("express");
 const path = require("path");
 const data = require("./collegeData.js");
-
 const app = express();
 
 const HTTP_PORT = process.env.PORT || 8080;
